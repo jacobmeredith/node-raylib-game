@@ -1,0 +1,35 @@
+// 20221007210257
+// https://raw.githubusercontent.com/jacobmeredith/sqlite-editor/main/apps/api/tsconfig.json
+
+{
+  "display": "Default",
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "ESNext",
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "lib": [
+      "es2020"
+    ],
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
